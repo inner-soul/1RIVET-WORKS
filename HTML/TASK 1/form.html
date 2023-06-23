@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <center>
+  <form>
+    <table border =1 width="800px"> 
+        <thead> <!--this is the header section-->
+          <tr>
+            <th colspan="3" height="100px"><h1>PERSONAL DETAILS</h1></th>
+          </tr>
+        </thead>
+        <tbody > <!--this is the body section-->
+          <tr>
+            <td colspan="3" height="620px">
+                <div>
+                    <label for="fname"> FIRST NAME</label>
+                    <input type="text" name="fname" id="fname" placeholder="enter first name" required>&nbsp;&nbsp;
+                    <label for="lname"> LAST NAME</label>
+                    <input type="text" name="lname" id="lname" placeholder="enter last name" required>
+                </div><br>
+                <div>
+                    <label for="inumber"> IDENTITY NUMBER </label><br>
+                    <input type="number" name="number" id="inumber" placeholder="enter id number" required>
+                </div><br>
+                <div>
+                    <label for="email"> EMAIL</label><br>
+                    <input type="email" name="email" id="email" placeholder="your email id '@'" required>
+                </div><br>
+                <div>
+                    <label for="gender"> GENDER </label><br>
+                    <input type="radio" name="gender" id="mgender" required>
+                    <label for="mgender">MALE</label><br>
+                    <input type="radio" name="gender" id="fgender" required>
+                    <label for="fgender">FEMALE</label><br>
+                    <input type="radio" name="gender" id="ogender" required>
+                    <label for="ogender">OTHERS</label><br>  
+                </div><br>
+                <div>
+                    <label for="bio"> BIO</label><br>
+                    <textarea name="bio" id="bio" cols="20" rows="7" required></textarea>
+                </div><br>
+                <div>
+                    <label for="color">FAVOURITE COLOUR</label> &nbsp;
+                    <input type="color" name="color" id="color" required>
+                </div><br>
+                <div>
+                    <label for="terms">ACCEPT THE TERMS</label>
+                    <input type="checkbox" name="terms" id="terms" required>
+                </div><br>
+            </left>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot> <!--this is the footer section-->
+          <tr>
+            <td colspan="3" height="30px">
+               <a href="table.html"><input type="button" value="SUBMIT"></a>
+                <input type="reset" value="RESET">
+                <span>click on submit and check the table's structure</span>
+            </td>
+          </tr>
+        </tfoot>
+      </table>  
+    </form> 
+</body>
+</html>

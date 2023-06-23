@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSESSMENT 2 FROM NEW</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <main>
+        <!-- top button section initiated -->
+            <section class="top-section">
+                <button type="button" class="top-btns filter-btn"><i class="fa-solid fa-filter"></i> Filter</button>
+                <button type="button" class="top-btns add-cust-btn"><i class="fa-solid fa-plus"></i> Add customer</button>
+            </section>
+        <!-- top button section ended -->
+
+        <!-- form section initiated -->
+            <section class="input-disp">
+                <div  class="input-spacing">
+                    <label for="name" class="label-format">NAME</label><br>
+                    <input type="text" placeholder="Enter Name" name="name" class="inputFormat">  
+                </div>
+                <div class="input-spacing">
+                    <label for="description" class="label-format">DESCRIPTION</label><br>
+                    <input type="text" placeholder="Enter Description" name="description" class="inputFormat">
+                </div>
+                <div class="input-spacing">
+                    <label for="status" class="label-format">STATUS</label><br>
+                    <select name="status" class="inputFormat">
+                        <option disabled selected>Select Status</option>
+                        <option value="open">Open</option>
+                        <option value="error">Error</option>
+                        <option value="success">Success</option>
+                        <option value="inactive">Inactive</option>
+                    </select>
+                </div>
+            </section>
+            <section class="input-disp">
+                <div  class="input-spacing">
+                    <label for="rate" class="label-format">RATE</label><br>
+                    <input type="text" placeholder="Enter Rate" name="rate" class="inputFormat">
+                </div>
+                <div class="input-spacing">
+                    <label for="balance" class="label-format">BALANCE</label><br>
+                    <input type="text" placeholder="Enter Balance" name="balance" class="inputFormat">
+                </div>
+                <div class="input-spacing">
+                    <label for="deposit" class="label-format">DEPOSIT</label><br>
+                    <input type="text" placeholder="Enter Deposit" name="deposit" class="inputFormat">
+                </div>
+            </section>
+        <!-- form section ended -->
+    </main>
+</body>
+</html>
